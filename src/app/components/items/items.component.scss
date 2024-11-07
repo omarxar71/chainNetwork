@@ -1,0 +1,23 @@
+.container{
+    min-height: 100vh;
+}
+.card{
+    height: 630px;
+   cursor: pointer;
+}
+.card:hover .card-img-top{
+    transform: scale(1.1);
+
+}
+.card-img-top{
+    transition: all .3s;
+}
+.input{
+    width: 70%;
+    margin: auto;
+    
+}
+input{
+    width: 100%;
+    
+}
